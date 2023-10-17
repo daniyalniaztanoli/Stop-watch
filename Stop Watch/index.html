@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="text">
+        <i class="fa-solid fa-hourglass-start fa-flip fa-2xl"></i>
+        <h1 style="text-transform:uppercase ;">Stop Watch</h1>
+        <i class="fa-solid fa-hourglass-start fa-flip fa-2xl"></i>
+
+    </div>
+
+    <div class="heading">
+        <div class="circle">
+        <h1><i id="hour" class="fa-sharp fa-solid fa-1xl">0 0</i> :</h1>
+        <h1><i id="mint" class="fa-sharp fa-solid fa-1xl">0 0</i> .</h1>
+        <h1><i id="sec" class="fa-sharp fa-solid fa-fade fa-1xl">0 0</i></h1>
+    </div>
+    </div>
+    <div class="btn">
+        <button class="btn1" id="startbtn" onclick="start()">Start</button>
+        <button class="btn2" onclick="pause()">Pause</button>
+        <button class="btn3" onclick="reset()">Reset</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
